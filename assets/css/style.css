@@ -18,6 +18,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #e67e62;
 }
@@ -75,6 +79,7 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+
 /*-------------heading------------- */
 
 header {
@@ -196,7 +201,7 @@ footer {
 
 .social-links {
     padding-bottom: 15px;
-    
+
 }
 
 .social-links li a i {
@@ -251,7 +256,7 @@ footer {
 .personal-info-item .key p,
 .personal-info-item .value p {
     margin: 0;
-    
+
 }
 
 .personal-info-item .key {
@@ -268,7 +273,7 @@ footer {
 .personal-info-item .value {
     position: relative;
     width: 60%;
-    
+
 }
 
 /*-------------3 reasons------------- */
@@ -316,8 +321,7 @@ footer {
     position: absolute;
     left: 2.5em;
     top: 3em;
-    display: block:
-    font-family: "Exo", sans-serif;
+    display: block: font-family: "Exo", sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
@@ -338,5 +342,37 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
-    
+
 }
+
+/*-------------contact form------------- */
+
+.contact-heading {
+    font-family: "Exo" sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/*-------------media queries------------- */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 40px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
